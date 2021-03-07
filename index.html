@@ -6,7 +6,6 @@
   <meta name="description" content="3D Art Exhibit">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
-  <script src="https://unpkg.com/aframe-extras@3.3.0/dist/aframe-extras.min.js"></script>
   <script src="assets/js/hide-on-enter-ar.js"></script>
   <script src="assets/js/ar-hit-test.js"></script>
   <script src="assets/js/model-viewer.js"></script>
@@ -16,10 +15,10 @@
   
 <a-scene
   renderer="colorManagement: true;"
-  model-viewer="gltfModel: #triceratops; title: Triceratops">
+  model-viewer="gltfModel: #footballtable;">
   <a-assets>
-    <a-asset-item id="triceratops"
-      src="assets/images/scene.gltf"
+    <a-asset-item id="footballtable"
+      src="assets/images/football.glb"
       response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
   </a-assets>
 </a-scene>
